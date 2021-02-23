@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .NavTab:active {
+            background-color: #cecece;
+        }
+        button {
+            background-color: coral;
+            margin-left: 150px;
+            border: none;
+            border-radius: 25px;
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        #TopPhoto {
+            width: 100%;
+            height: 500px;
+        }
+        #LeftPhoto {
+            width: 20%;
+            height: 800px;
+            float: left;
+            margin-top: -180px;
+            margin-bottom: 50px;
+        }
+        #RightPhoto {
+            width: 20%;
+            height: 800px;
+            float: right;
+            margin-top: -180px;
+            margin-bottom: 50px;
+        }
+        body {
+            background: black;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            margin-top: 150px;
+            font-family: cursive;
+            font-size: 40pt;
+        }
+        p {
+            margin-left: 500px;
+            margin-right: 500px;
+            color: white;
+            font-size: 20pt;
+            line-height: 1.6;
+        }
+        ul {
+           color: white;
+           text-align: center;
+           line-height: 1.8;
+           font-size: 18pt;
+        }
+    </style>
+    <title>Things To Do In Taniti</title>
+</head>
+<body>
+    <img src = "TopPhoto.jpg" id = "TopPhoto">
+    <div>
+        <button id = "Home" class = "NavTab" onclick = "location.href = 'Homepage.html'">Homepage</button>
+        <button id = "About" class = "NavTab" onclick = "location.href = 'AboutUs.html'">About Taniti</button>
+        <button id = "Things" class = "NavTab" onclick = "location.href = 'ThingsToDo.html'">Things To Do</button>
+        <button id = "Places" class = "NavTab" onclick = "location.href = 'PlacesToSee.html'">Places To See</button>
+        <button id = "Where" class = "NavTab" onclick = "location.href = 'WhereToStay.html'">Where To Stay</button>
+        <button id = "Contact" class = "NavTab" onclick = "location.href = 'ContactUs.html'">Contact Us</button>
+    </div>
+    <h1>Things To Do In Taniti</h1>
+    <img src = "ThingsToDoLeft.jpg" id = "LeftPhoto">
+    <img src = "ThingsToDoRight.jpg" id = "RightPhoto">
+    <p>Although our island is small, we're never short on fun activities to share with friends and family or to do on your own! Among these activities are:</p>
+    <ul>
+        <li>Nightlife in Taniti City, from arcades to bars to sprawling nightclubs.</li>
+        <li>Visiting one of our many museums.</li>
+        <li>Ziplining through our beaitfully preserved rainforests.</li>
+        <li>Dive in our crystal blue waters and go snorkeling.</li>
+        <li>And for those who want to kick back and relax, a nine-hole golf course awaits!</li>
+    </ul>
+    <p>Unfortunately, we can only list so many possible activities you can do here in Taniti, you'll just have to come and find out for yourself!</p>
+</body>
+</html>

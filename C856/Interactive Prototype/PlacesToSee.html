@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .NavTab:active {
+            background-color: #cecece;
+        }
+        button {
+            background-color: coral;
+            margin-left: 150px;
+            border: none;
+            border-radius: 25px;
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        #TopPhoto {
+            width: 100%;
+            height: 500px;
+        }
+        #LeftPhoto {
+            width: 20%;
+            height: 800px;
+            float: left;
+            margin-top: -180px;
+            margin-bottom: 50px;
+        }
+        #RightPhoto {
+            width: 20%;
+            height: 800px;
+            float: right;
+            margin-top: -180px;
+            margin-bottom: 50px;
+        }
+        body {
+            background: black;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            margin-top: 150px;
+            font-family: cursive;
+            font-size: 40pt;
+        }
+        p {
+            margin-left: 500px;
+            margin-right: 500px;
+            color: white;
+            font-size: 20pt;
+            line-height: 1.6;
+        }
+        ul {
+           color: white;
+           text-align: center;
+           line-height: 1.8;
+           font-size: 18pt;
+           list-style: none;
+        }
+        ul li:before {
+            content: '✓ ';
+        }
+    </style>
+    <title>Places To See In Taniti</title>
+</head>
+<body>
+    <img src = "TopPhoto.jpg" id = "TopPhoto">
+    <div>
+        <button id = "Home" class = "NavTab" onclick = "location.href = 'Homepage.html'">Homepage</button>
+        <button id = "About" class = "NavTab" onclick = "location.href = 'AboutUs.html'">About Taniti</button>
+        <button id = "Things" class = "NavTab" onclick = "location.href = 'ThingsToDo.html'">Things To Do</button>
+        <button id = "Places" class = "NavTab" onclick = "location.href = 'PlacesToSee.html'">Places To See</button>
+        <button id = "Where" class = "NavTab" onclick = "location.href = 'WhereToStay.html'">Where To Stay</button>
+        <button id = "Contact" class = "NavTab" onclick = "location.href = 'ContactUs.html'">Contact Us</button>
+    </div>
+    <h1>Places To See In Taniti</h1>
+    <img src = "PlacesToSeeLeft.jpg" id = "LeftPhoto">
+    <img src = "PlacesToSeeRight.jpg" id = "RightPhoto">
+    <p>Have you ever been on a trip somewhere that just didn't check all of the boxes as far as places to go and sights to see? Well here in Taniti, we have just about everything you'd want to see:</p>
+    <ul>
+        <li>The super modern and sprawling Taniti City</li>
+        <li>Both white sand and rocky beaches</li>
+        <li>Boats and buses to take you on tours of the island</li>
+        <li>Hiking trails through the rainforests</li>
+        <li>And for the adventerous ones...an active volcano!</li>
+    </ul>
+</body>
+</html>

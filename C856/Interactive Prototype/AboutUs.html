@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .NavTab:active {
+            background-color: #cecece;
+        }
+        button {
+            background-color: coral;
+            margin-left: 150px;
+            border: none;
+            border-radius: 25px;
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        #TopPhoto {
+            width: 100%;
+            height: 500px;
+        }
+        #LeftPhoto {
+            width: 20%;
+            height: 800px;
+            float: left;
+            margin-top: -180px;
+            margin-bottom: 50px;
+        }
+        #RightPhoto {
+            width: 20%;
+            height: 800px;
+            float: right;
+            margin-top: -180px;
+            margin-bottom: 50px;
+        }
+        body {
+            background: black;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            margin-top: 150px;
+            font-family: cursive;
+            font-size: 40pt;
+        }
+        p {
+            margin-left: 500px;
+            margin-right: 500px;
+            color: white;
+            font-size: 20pt;
+            line-height: 1.6;
+        }
+        ul {
+           color: white;
+           text-align: center;
+           line-height: 1.8;
+           font-size: 18pt;
+        }
+    </style>
+    <title>About Taniti</title>
+</head>
+<body>
+    <img src = "TopPhoto.jpg" id = "TopPhoto">
+    <div>
+        <button id = "Home" class = "NavTab" onclick = "location.href = 'Homepage.html'">Homepage</button>
+        <button id = "About" class = "NavTab" onclick = "location.href = 'AboutUs.html'">About Taniti</button>
+        <button id = "Things" class = "NavTab" onclick = "location.href = 'ThingsToDo.html'">Things To Do</button>
+        <button id = "Places" class = "NavTab" onclick = "location.href = 'PlacesToSee.html'">Places To See</button>
+        <button id = "Where" class = "NavTab" onclick = "location.href = 'WhereToStay.html'">Where To Stay</button>
+        <button id = "Contact" class = "NavTab" onclick = "location.href = 'ContactUs.html'">Contact Us</button>
+    </div>
+    <h1>A Little Bit About Us...</h1>
+    <img src = "AboutUsLeft.jpg" id = "LeftPhoto">
+    <img src = "AboutUsRight.jpg" id = "RightPhoto">
+    <p>Taniti is a small island located in the Pacific Ocean off the coast of California, so if you don't like flying--no big deal! Cruise ships are available to bring you to the island and take you back once you're ready to leave. The island is just under 500 square miles and has varied terrain, from sandy and rocky beaches to an active volcano.
+        Here are some things to expect during your stay at Taniti:</p>
+    <ul>
+        <li>Our power outlets are 120 volts, just like the United States.</li>
+        <li>Our drinking age is 18 years old.</li>
+        <li>The serving and selling of alcohol stops after midnight and resumes at 9:00am.</li>
+        <li>Many younger Tanitians speak English, however, citizens living in more rural areas do not.</li>
+        <li>Tourist attractions and restaurants are usually closed on holidays, so please plan accordingly!</li>
+        <li>Taniti's primary currency is the US dollar, but many banks are available to exchange currency <br> and most major credit cards are accepted at local businesses.</li>
+    </ul>
+</body>
+</html>

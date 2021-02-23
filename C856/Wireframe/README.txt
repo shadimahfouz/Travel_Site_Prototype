@@ -1,0 +1,1 @@
+Just for clarification, the dark tab in the wireframes represents the currently selected tab. I placed the tabs next to one another so that they're always visible regardless of which page you're on.
